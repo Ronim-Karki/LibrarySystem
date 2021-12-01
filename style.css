@@ -1,0 +1,304 @@
+	@charset "utf-8";
+	/* CSS Document */
+	
+	body {
+	/* background-image:url(Image/library.jpg);*/
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	}
+
+	
+	li a{
+		list-style:none;
+		color:#FFF;
+		text-decoration:none;
+		display:inline;
+	
+	}
+	nav{
+		background-color:#069;
+		opacity:50%;
+		background-size:cover;
+		list-style-type: none;
+		margin: 0;
+		padding:0;
+		float:center;
+		word-spacing:35px;
+		text-align:center;
+		font-size:36px;
+		font-variant:small-caps;
+	}
+	nav:hover{
+		opacity:100%;
+	}
+	nav li{
+		display:inline;
+		word-spacing: 500px; 
+		list-style:none;}
+	li a:hover
+	{
+		color:#F00;
+	}
+	
+	h1{
+	text-align: center;
+	color:#FFF;
+	font-size: 50px;
+	}
+	
+	.box1
+	{
+	height: 500px;
+	width: 500px;
+	background-color:#999;
+	margin: 70px auto;
+	opacity: 0.9;
+	float:center;
+	}
+	
+	
+	
+	footer {
+		alignment-adjust:baseline;
+		background-color:#999;
+		padding:2px 2px 2px 2px;
+		left:0;
+		margin-top:800px;
+		buttom:0;
+		width: 100%;
+	}
+	footer ul li{
+		font-size:24px;
+		text-align:center;
+		list-style:none;
+		color:white;
+	
+	}
+	
+	h3{
+	font-size:36px;
+	font-style:normal;
+	color:#000;
+	text-align:center;
+	}
+	
+	
+	 label[for=uname]{
+		 text-align:center;
+		 margin: 5px 5px 22px 100px;}
+	
+	 label[for=psw]{
+		text-align:center;
+		margin: 5px 5px 22px 100px;
+	}
+	
+	input[type=text], input[type=password] {
+	width: 50%;
+	padding: 15px;
+	margin: 5px 5px 22px 100px;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+	text-align:center;
+	}
+	
+	input[type=text]:focus, input[type=password]:focus {
+	background-color: #ddd;
+	outline: none;
+	}
+	
+	hr {
+	border: 1px solid #f1f1f1;
+	margin-bottom: 25px;
+	}
+	
+	/* Set a style for all buttons */
+	button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 0px 180px;
+	border: none;
+	cursor: pointer;
+	width: 20%;
+	opacity: 0.9;
+	
+	}
+	
+	button:hover {
+	opacity:1;
+	}
+	
+	input[type=checkbox] {
+		margin: 0px 10px;}
+		
+		
+/*------------------------------------------------Registration form------------------------*/
+
+body {
+	/*background-image:url(Registration%20image.jpg);*/
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	}
+.box2
+	{
+	height: 1500px;
+	width: 600px;
+	background-color:#999;
+	margin: 70px auto;
+	opacity:.9;
+	float:center;
+	text-aligh:center;
+	}
+input[type=text] {
+	width: 50%;
+	padding: 10px;
+	margin: 5px 5px 22px 100px;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+	
+	}
+label[for=DOB] {
+	 text-align:center;
+	 margin: 5px 5px 22px 100px;}
+		
+		
+input, label {
+  margin: 5px 5px;
+}
+
+#inputStreet {
+  width: 50%;
+  margin: 5px 5px 22px 100px;
+
+}
+
+#inputCity {
+  width: 20%;
+  margin: 5px 5px 22px 100px;
+}
+
+#inputState {
+  width: 15%;
+  margin: 5px 5px 22px 100px;
+}
+
+#inputZip {
+  width: 15%;
+  margin: 5px 5px 22px 100px;
+}
+
+#inputCounty {
+  width: 45%;
+  margin: 5px 5px 22px 100px;
+}
+
+#inputCountry {
+  width: 50%;
+  margin: 5px 5px 22px 100px;
+}
+label[for=Address] {
+	 margin: 5px 5px 22px 100px;}
+
+
+input[type=text], input[type=password] {
+	width: 50%;
+	padding: 10px;
+	margin: 5px 5px 22px 100px;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+	text-align:center;
+	}
+button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 0px 240px;
+	border: none;
+	cursor: pointer;
+	width: 20%;
+	opacity: 0.9;}
+		
+	button:hover {
+	opacity:1;
+	}
+	
+/*---------------------Admin login---------------*/
+body {
+	/*background-image:url(Image/library.jpg));*/
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-size: cover;}
+.box3
+	{
+	height: 500px;
+	width: 500px;
+	background-color:#999;
+	margin: 70px auto;
+	opacity: 0.7;
+	float:center;
+	}
+	
+h3{
+	font-size:36px;
+	font-style:normal;
+	color:#000;
+	text-align:center;
+	}
+	
+	
+	 label[for=uname]{
+		 text-align:center;
+		 margin: 5px 5px 22px 100px;}
+	
+	 label[for=psw]{
+		text-align:center;
+		margin: 5px 5px 22px 100px;
+	}
+	
+	input[type=text], input[type=password] {
+	width: 50%;
+	padding: 15px;
+	margin: 5px 5px 22px 100px;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+	text-align:center;
+	}
+	
+	input[type=text]:focus, input[type=password]:focus {
+	background-color: #ddd;
+	outline: none;
+	}
+	
+	hr {
+	border: 1px solid #f1f1f1;
+	margin-bottom: 25px;
+	}
+	
+button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 0px 180px;
+	border: none;
+	cursor: pointer;
+	width: 20%;
+	opacity: 0.9;
+	
+	}
+	
+	button:hover {
+	opacity:1;
+	}
+	
+	input[type=checkbox] {
+		margin: 0px 10px;}
+		
+
+
+		
